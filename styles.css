@@ -1,0 +1,23 @@
+.grid {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: green;
+}
+
+.apple {
+  /*for later use:
+   <i class="fas fa-apple-alt"></i>
+   */
+  background-color: red;
+}
